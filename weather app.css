@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f40808;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+h3 i{
+    color: blue;
+}
+
+.weather-item {
+    color: blue;
+}
+
+.weather-item .value{
+    color:red;
+}
+
+.weather-display {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.weather-display h2 {
+    margin-top: 0;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-item {
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.value {
+    color: #333;
+}
+
+.cloud-icon {
+    font-size: 15px;
+    color: #888; /* Cloud color */
+    text-shadow: 1px 1px 5px #333; /* Shadow for a 3D effect */
+  }
+
+  .rain-icon {
+    color: blue; /* Set color as per your design */
+  }
+
+.forecast-display {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.forecast-display .forecast-info .forecast-item{
+    color: red;
+}
+.forecast-display h2 {
+    margin-top: 0;
+}
+
+
+.forecast-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.date {
+    font-weight: bold;
+}
+
+.temperature, .condition {
+    color: #333;
+}
+
+footer {
+    background-color: #f80808;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
